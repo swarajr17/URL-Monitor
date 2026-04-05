@@ -1,0 +1,13 @@
+node_modules/
+data.db
+data.db-*
+*.log
+.env
+.DS_Store
+pipeline_explanation.md
+implementation_plan.md
+task.md
+walkthrough.md
+ui_implementation_plan.md
+ui_task_list.md
+ui_walkthrough.md
