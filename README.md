@@ -1,6 +1,10 @@
 # Uptime Monitor (Decoupled & Scalable)
 
-This system is split into two main services for better performance and scalability.
+A distributed uptime monitoring system that performs concurrent health checks,
+streams real-time status via WebSockets, and triggers alerts on failures.
+
+Designed to handle high-frequency checks using a worker-based architecture
+with Redis Pub/Sub for real-time communication.# Uptime Monitor (Decoupled & Scalable)
 
 ## Prerequisites
 
